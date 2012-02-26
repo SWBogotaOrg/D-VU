@@ -8,7 +8,11 @@
             
             <div class="row">
                 <div class="four columns">
+<<<<<<< HEAD
                    <img src="/img/cover-doc<?php echo $id ?>.jpg" class="bigPhoto" alt="<?php echo $title_movie ?>"  title="<?php echo $title_movie ?>" />
+=======
+                   <img src="img/cover_doc1.jpg" class="bigPhoto" alt="The Water Cycle"  title="The Water Cycle" />
+>>>>>>> 30f3dfc24e53feabe51d3896a9ce002780d64e5f
                 </div>
                 
                 <div class="eight columns">
