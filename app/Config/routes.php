@@ -27,6 +27,7 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/documentary/:id', array('controller' => 'pages', 'action' => 'documentary'), array('pass' => array('id')));
+	Router::connect('/video/:id', array('controller' => 'pages', 'action' => 'video'), array('pass' => array('id')));
 	Router::connect('/:view', array('controller' => 'pages', 'action' => 'display'), array('pass' => array('view')));
 /**
  * ...and connect the rest of 'Pages' controller's urls.

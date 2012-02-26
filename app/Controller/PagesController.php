@@ -89,5 +89,23 @@ class PagesController extends AppController {
 
 		$this->set(compact('id', 'title_movie', 'title_for_layout'));
 	}
+	
+	public function video($id) {
+		$movies = array(
+			1 => array('The Water Cycle','http://www.youtube.com/embed/lzOAxvs2RuY'),
+			2 => array('The matunda kids sign with volunteers','http://www.youtube.com/embed/Melw8HX6ssA'),
+			3 => array('We have water','http://www.youtube.com/embed/-AMB71jf6rs'),
+			4 => array('The Matunda Health Centre','http://www.youtube.com/embed/rRxM42URLh0'),
+			5 => array('Pulling Teeth','http://www.youtube.com/embed/2uAoB1IxfH0'),
+		);
+		if (empty($movies[$id])) {
+			$id = 1;
+		}
+
+		$title_movie = $movies[$id];
+		$title_for_layout = $movies[$id][0];
+
+		$this->set(compact('id', 'title_movie', 'title_for_layout'));
+	}
 
 }

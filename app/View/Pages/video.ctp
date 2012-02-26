@@ -1,12 +1,8 @@
-<?php
-$this->Html->script("mocha.js", array("inline" => false));
-$this->set('title_for_layout', __('Hivou - The Water Cycle HD', true));
-?>
 <!-- container -->
 
 	    <div class="row">
                 <div class="twelve columns">
-                    <h1>The Water Cycle (HD Version)</h1>	
+                    <h1><?php echo $title_movie[0] ?> (HD Version)</h1>	
                 </div>
             </div>
             
@@ -15,7 +11,7 @@ $this->set('title_for_layout', __('Hivou - The Water Cycle HD', true));
             <div class="row">
             	<div class="video-panel">
                     <div class="video-wrapper">
-                        <iframe width="940" height="529"  src="http://www.youtube.com/embed/AXmNUZCLIjU?theme=light" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="940" height="529"  src="<?php echo $title_movie[1] ?>?theme=light" frameborder="0" allowfullscreen></iframe>
                     </div>
             	</div>
                 
@@ -52,7 +48,7 @@ $this->set('title_for_layout', __('Hivou - The Water Cycle HD', true));
             <div id="profile-options"  class="row">
             	<div class="six columns">
                 	<div class="panel" align="center">
-                    	<img src="img/ic-search.png" alt="Search & watch documentaries"  title="Search & watch documentaries" />
+                    	<img src="/img/ic-search.png" alt="Search & watch documentaries"  title="Search & watch documentaries" />
                     	<h3>SEARCH & WATCH DOCUMENTARIES</h3>                        
                         <input name="" type="text" size="40"><br><br>
                      	<a href="" rel="external" class="nice radius orange button medium">Search</a>
@@ -61,7 +57,7 @@ $this->set('title_for_layout', __('Hivou - The Water Cycle HD', true));
                 
                 <div class="six columns">
                 	<div class="panel"  align="center">
-                    	<img src="img/ic-director.png" alt="Upload your documentary!"  title="Upload your documentary!" />
+                    	<img src="/img/ic-director.png" alt="Upload your documentary!"  title="Upload your documentary!" />
                     	<h3>FILMMAKER:<br />UPLOAD YOUR DOCUMENTARY!</h3>
                         <a href="" rel="external" class="nice radius orange button medium">Upload</a>
                     </div>
