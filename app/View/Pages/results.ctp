@@ -22,7 +22,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                         
                         <div class="row doc-options">
                             <div class="two columns">
-                                <a href="video.html" class="lk-trailer">Trailer</a>
+                                <a href="video/1" class="lk-trailer">Trailer</a>
                             </div>
                             
                             <div class="two columns">
@@ -34,7 +34,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="director.html" class="lk-director">Director</a>
+                                <a href="director" class="lk-director">Director</a>
                             </div>
                             
                             <div class="two columns">
@@ -63,7 +63,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                         
                         <div class="row doc-options">
                             <div class="two columns">
-                                <a href="video.html" class="lk-trailer">Trailer</a>
+                                <a href="video/2" class="lk-trailer">Trailer</a>
                             </div>
                             
                             <div class="two columns">
@@ -75,7 +75,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="director.html" class="lk-director">Director</a>
+                                <a href="director" class="lk-director">Director</a>
                             </div>
                             
                             <div class="two columns">
@@ -104,7 +104,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                         
                         <div class="row doc-options">
                             <div class="two columns">
-                                <a href="video.html" class="lk-trailer">Trailer</a>
+                                <a href="video/3" class="lk-trailer">Trailer</a>
                             </div>
                             
                             <div class="two columns">
@@ -116,7 +116,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="director.html" class="lk-director">Director</a>
+                                <a href="director" class="lk-director">Director</a>
                             </div>
                             
                             <div class="two columns">
@@ -145,7 +145,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                         
                         <div class="row doc-options">
                             <div class="two columns">
-                                <a href="video.html" class="lk-trailer">Trailer</a>
+                                <a href="video/4" class="lk-trailer">Trailer</a>
                             </div>
                             
                             <div class="two columns">
@@ -157,7 +157,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="director.html" class="lk-director">Director</a>
+                                <a href="director" class="lk-director">Director</a>
                             </div>
                             
                             <div class="two columns">
@@ -186,7 +186,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                         
                         <div class="row doc-options">
                             <div class="two columns">
-                                <a href="video.html" class="lk-trailer">Trailer</a>
+                                <a href="video/5" class="lk-trailer">Trailer</a>
                             </div>
                             
                             <div class="two columns">
@@ -198,7 +198,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="director.html" class="lk-director">Director</a>
+                                <a href="director" class="lk-director">Director</a>
                             </div>
                             
                             <div class="two columns">
