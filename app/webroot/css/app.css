@@ -30,6 +30,9 @@ input[type="text"]{
 	font: 18px 'Josefin Sans', sans-serif !important;
 	padding: 5px;
 }
+big{
+	font-size: 1.5em;
+}
 
 /* Layout */
 
@@ -125,6 +128,16 @@ a.lk-view:hover{
 	padding: 10px;
 	margin: 20px 0px;
 }
+img.bigPhoto{
+	border-radius: 20px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+	margin-bottom: 20px;
+}
+img.thumbPhoto{
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+	clear: both;
+}
 
 /* Header & Footer */
 
@@ -151,9 +164,10 @@ a.lk-view:hover{
 	bottom: 0;
 	box-shadow: inset 0px 5px 5px rgba(0, 0, 0, .25);
 	clear: both;		
-	padding: 40px 0px 20px;	
-	position:absolute;   
-	width: 100%;	
+	padding: 40px 2% 20px;	
+	position:absolute;  
+	
+	width: 96%;	
 }
 .link-bar a,
 #footer a{
@@ -165,4 +179,18 @@ a.lk-view:hover{
 #footer a:hover{
 	color: #999;
 	text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {	
+	h1,
+	#footer,
+	.link-bar{			
+		text-align: center;
+	}
+	#header .four.columns,
+	.four.columns{	
+		padding-top: 0px;
+		text-align: center;
+	}	
+	
 }
