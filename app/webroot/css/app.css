@@ -129,11 +129,15 @@ a.lk-view:hover{
 .ten.columns .doc-options{	
 	margin: 20px 0px 0px;
 }
+.video-panel,
 #slider{
 	background-color: #FFF;
 	box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
 	padding: 10px;
 	margin: 20px 0px;
+}
+.video-panel{	
+	margin: 0px 0px 20px;
 }
 img.bigPhoto{
 	border-radius: 20px;
@@ -145,6 +149,7 @@ img.thumbPhoto{
 	box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
 	clear: both;
 }
+
 .video-wrapper {
 	background-color: #FFF;
 	position: relative;
