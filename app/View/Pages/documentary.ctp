@@ -6,21 +6,21 @@ $this->set('title_for_layout', __('Hivou - Documentary', true));
 
 	<div class="row">
                 <div class="twelve columns">
-                    <h1>Africa</h1>	
+                    <h1>The Water Cycle</h1>	
                 </div>
             </div>
             
             <div class="row">
                 <div class="four columns">
-                   <img src="img/cover_doc.jpg" alt="Africa"  title="Africa" />
+                   <img src="img/cover_doc.jpg" class="bigPhoto" alt="The Water Cycle"  title="The Water Cycle" />
                 </div>
                 
                 <div class="eight columns">
                     <div class="panel">
-                        <h2>Africa</h2>
+                        <h2>The Water Cycle</h2>
                         <ul class="doc-info">
                             <li class="link-bar"><img src="img/ic-ranking.png" alt="" title="" /> <a href="">View ranking</a></li>
-                            <li><span>Director:</span> <a href=""><strong>Carlos Rodríguez</strong></a></li>
+                            <li><span>Director:</span> <a href="director.html"><big><strong>Carlos Rodríguez</strong></a></big></li>
                             <li><span>Theme:</span> <strong>Migration</strong></li>
                             <li><span>Country:</span> <strong>Colombia</strong></li>
                             <li><span>Language:</span> <strong>Spanish</strong></li> 
@@ -65,7 +65,7 @@ $this->set('title_for_layout', __('Hivou - Documentary', true));
                         </div>
                         
                         <div class="two columns">
-                            <a href="" class="lk-director">Director</a>
+                            <a href="director.html" class="lk-director">Director</a>
                         </div>
                         
                         <div class="two columns">
