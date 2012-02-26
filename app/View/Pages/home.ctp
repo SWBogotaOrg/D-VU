@@ -2,6 +2,8 @@
 $this->Html->css("slider.css", null, array("inline" => false));
 $this->Html->script("mocha.js", array("inline" => false));
 ?>
+
+<?php $this->set('title_for_layout', __('Hivou - Home', true)) ?>
 <!-- container -->
 
 <div class="row">

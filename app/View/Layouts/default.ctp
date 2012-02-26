@@ -35,7 +35,9 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<script src="js/foundation.js"></script>
 		<script src="js/app.js"></script>
 
-		<title>Hivou - Home Page</title>
+		<title>
+			<?php echo $title_for_layout; ?>
+		</title>
 
 		<!-- Included CSS Files -->
 		<link rel="stylesheet" href="css/foundation.css">
