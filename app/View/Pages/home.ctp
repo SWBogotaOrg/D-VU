@@ -22,7 +22,7 @@ $this->Html->script("mocha.js", array("inline" => false));
 			<img src="/img/thumb5.jpg" /> 
 		</div>
 
-		<a href="#" id="next"></a>
+		<div id="next"></div>
 
 	</div>
 

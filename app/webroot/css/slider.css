@@ -1,5 +1,10 @@
-#gallery, #thumbs{
-	float: left;
+#slider{
+	position: relative;
+}
+#thumbs{
+	position: absolute;
+	right: 10px;
+	top: 10px;
 }
 
 #gallery{
@@ -13,9 +18,13 @@
 }
 
 #thumbs{
-	width: 100px;
-	height: 300px;
+	width: 150px;
+	height: 360px;
 	overflow: hidden;
+	background-color: #000;
+}
+#thumbs img{
+	margin: 5px;
 }
 
 #next{
@@ -23,9 +32,10 @@
 	width: 47px;
 	height: 43px;
 	background: url(/img/arrow.png);
-	position: relative;
-	top: 257px;
-	left: 855px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
 }
 
 #next:hover{
