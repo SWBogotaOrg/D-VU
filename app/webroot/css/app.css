@@ -1,0 +1,124 @@
+/* Foundation v2.2 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* HTML */
+
+body,
+html{
+	height: 100%;	
+}
+body{
+	background-color: #FFD018;	
+}
+h1,
+h2,
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+input[type="text"]{
+	border: 1px solid #ccc;	
+	border-radius: 5px;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, .1);
+	font: 18px 'Josefin Sans', sans-serif !important;
+	padding: 5px;
+}
+
+/* Layout */
+
+#main-wrapper{
+	min-height:100%;
+	position:relative;   
+}
+.container{	
+	padding-bottom: 120px;
+}
+.clear{
+	clear: both;
+}
+.panel h3 { font-size: 30px;}
+.panel .hr{
+	border-bottom: 1px solid #CCC;
+	clear: both;
+	height: 1px;
+	margin: 20px 0px;
+}
+.al-right{
+	text-align: right;
+}
+.doc-info span{
+	display: inline-block;
+	width: 75px;
+}
+.doc-options{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.doc-options a{
+	text-align: center;
+	text-decoration: none;
+}
+#profile-options div.panel {
+	min-height: 200px;
+}
+
+.button.nice:hover { 
+	color: #FFD018;
+}
+.hr{	
+	border-bottom: 1px solid #E5BB16;
+	clear: both;
+	height: 1px;
+	margin: 20px 0px;
+}
+
+/* Header & Footer */
+
+#header .row{	
+	border-bottom: 1px solid #E5BB16;
+	margin-bottom: 20px;
+	padding: 20px 0px;
+}
+#header .link-bar{
+	font-size: 20px;
+	padding-top: 80px;	
+}
+#header .seven.columns a{
+	margin: 0px 20px;
+	text-decoration: none;
+}
+#header .seven.columns a:hover{
+	color: #FFF;
+}
+#header .seven.columns a:last-child{
+	margin-right: 0px;
+}
+#footer {
+	background-color: #FFF;
+	bottom: 0;
+	box-shadow: inset 0px 5px 5px rgba(0, 0, 0, .25);
+	clear: both;		
+	padding: 40px 0px 20px;	
+	position:absolute;   
+	width: 100%;	
+}
+.link-bar a,
+#footer a{
+	color: #000;
+	margin: 0px 10px;
+	text-decoration: underline;
+}
+.link-bar a:hover,
+#footer a:hover{
+	color: #999;
+	text-decoration: none;
+}
