@@ -7,6 +7,7 @@ $this->Html->script("mocha.js", array("inline" => false));
 <!-- container -->
 
 <div class="row">
+	<div align="center" style="margin-bottom: 30px;"><h1>Watch the best documentaries. Upload yours.</h1></div>
 	<div id="slider">
 		<div id="gallery">
 			<img id="img-slider" src="/img/slider1.jpg" />
