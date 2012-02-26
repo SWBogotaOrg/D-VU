@@ -1,25 +1,7 @@
+<?php
+$this->Html->script("mocha.js", array("inline" => false));
+?>
 <!-- container -->
-<div class="container">
-	<div id="header">
-		<div class="row">
-
-			<div class="four columns">
-				<a href="index.html"><img src="/img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
-			</div>
-
-			<div class="four columns link-bar">
-				<a href=""><img src="/img/ic-twitter.png" alt="Twitter" title="Twitter" /></a> 
-				<a href=""><img src="/img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
-			</div>
-
-			<div class="four columns link-bar al-right">
-				<a href="">Sign in</a>         
-				<a href="">Contact us</a>                        
-			</div>
-
-		</div>
-	</div>
-
 
 	<div class="row">
 		<div id="slider">
@@ -69,5 +51,4 @@
 		</div>
 
 	</div>
-</div>
 <!-- container -->
