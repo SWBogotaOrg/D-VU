@@ -16,7 +16,7 @@
                         <h2><?php echo $title_movie ?></h2>
                         <ul class="doc-info">
                             <li class="link-bar"><img src="/img/ic-ranking.png" alt="" title="" /> <a href="">View ranking</a></li>
-                            <li><span>Director:</span> <a href="director.html"><big><strong>Carlos Rodríguez</strong></a></big></li>
+                            <li><span>Director:</span> <a href="/director"><big><strong>Carlos Rodríguez</strong></a></big></li>
                             <li><span>Theme:</span> <strong>Migration</strong></li>
                             <li><span>Country:</span> <strong>Colombia</strong></li>
                             <li><span>Language:</span> <strong>Spanish</strong></li> 
@@ -61,7 +61,7 @@
                         </div>
                         
                         <div class="two columns">
-                            <a href="director.html" class="lk-director">Director</a>
+                            <a href="/director" class="lk-director">Director</a>
                         </div>
                         
                         <div class="two columns">

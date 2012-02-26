@@ -31,7 +31,7 @@
                     </div>
                     
                     <div class="two columns">
-                        <a href="director.html" class="lk-director">Director</a>
+                        <a href="/director" class="lk-director">Director</a>
                     </div>
                     
                     <div class="two columns">
