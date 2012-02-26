@@ -99,8 +99,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					</div>
 
 					<div class="four columns al-right">
-						<a href=""><img src="/img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
-						<a href=""><img src="/img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
+						<a href="https://www.twitter.com/hivou"><img src="/img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
+						<a href="https://www.facebook.com/pages/Hivou/321249997922559"><img src="/img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
 					</div>
 				</div>
 			</div>
