@@ -57,16 +57,6 @@ input[type="text"]{
 	display: inline-block;
 	width: 75px;
 }
-.doc-options{
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 40px;
-}
-.doc-options a{
-	text-align: center;
-	text-decoration: none;
-}
 #profile-options div.panel {
 	min-height: 200px;
 }
@@ -80,6 +70,61 @@ input[type="text"]{
 	height: 1px;
 	margin: 20px 0px;
 }
+.doc-options{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 40px 0px;
+}
+.doc-options a{
+	display: block;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	
+}
+a.lk-trailer,
+a.lk-future,
+a.lk-director,
+a.lk-store,
+a.lk-more{
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 40px; 
+}
+a.lk-trailer{
+	background-image: url(../img/lk-trailer.png);
+}
+a.lk-future{
+	background-image: url(../img/lk-future.png);
+}
+a.lk-director{
+	background-image: url(../img/lk-director.png);
+}
+a.lk-store{
+	background-image: url(../img/lk-store.png);
+}
+a.lk-more{
+	background-image: url(../img/lk-more.png);
+}
+a.lk-view{ 
+	border-radius: 10px;
+	padding: 15px;
+	text-shadow: 0px -1px 0px #000;
+}
+a.lk-view span{ 
+	color: #FFD018;	
+	font-size: 24px;
+}
+a.lk-view:hover{ 
+	color: #999;
+}
+#slider{
+	background-color: #FFF;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, .25);
+	padding: 10px;
+	margin: 20px 0px;
+}
 
 /* Header & Footer */
 
@@ -88,8 +133,7 @@ input[type="text"]{
 	margin-bottom: 20px;
 	padding: 20px 0px;
 }
-#header .link-bar{
-	font-size: 20px;
+#header .link-bar{	
 	padding-top: 80px;	
 }
 #header .seven.columns a{
