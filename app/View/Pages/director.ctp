@@ -1,6 +1,5 @@
 <?php
-$this->Html->script("mocha.js", array("inline" => false));
-$this->set('title_for_layout', __('Hivou - Director', true));
+$this->set('title_for_layout', __('Hivou - Carlos Rodríguez', true));
 ?>
 <!-- container -->
 
