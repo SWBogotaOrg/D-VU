@@ -70,7 +70,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<div id="header">
 					<div class="row">
 						<div class="four columns">
-							<a href="index.html"><img src="/img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
+							<a href="/"><img src="/img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
 						</div>
 
 						<div class="four columns link-bar">
