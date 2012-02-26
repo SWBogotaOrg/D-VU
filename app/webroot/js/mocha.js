@@ -8,34 +8,25 @@
 
 $(document).ready(function() 
 {	 
-	var index = 0;
-	var images = $("#gallery img");
-	var thumbs = $("#thumbs img");
-	var imgHeight = $(thumbs).attr("height");
-	$(thumbs).slice(0,3).clone().appendTo("#thumbs");
-	for (i=0; i<thumbs.length; i++)
-	{
-		$(thumbs[i]).addClass("thumb-"+i);
-		$(images[i]).addClass("image-"+i);
+	$(window).bind('resize', function() {
+		remode();
+	})
+	remode();
+
+	var img_number =1;
+	function remode(){
+		var p=$('#img-slider').position();
+		var fh1={
+			'left': p.left+ $('#img-slider').width() - $('#next').width(),
+			'top': p.top + $('#img-slider').height() - $('#next').height()
+		}
+		$('#next').css(fh1);
 	}
-	
-	$("#next").click(sift);
-	show(index);
-	setInterval(sift, 8000);
-	
-	function sift()
-	{
-		if (index<(thumbs.length-1)){index+=1 ; }
-		else {index=0}
-		show (index);
+	function changeImg(){
+		img_number++;
+		$('#img-slider').attr('src','/img/slider'+img_number+'.jpg')
+		if(img_number==5)img_number=0;
 	}
-	
-	function show(num)
-	{
-		$(images).fadeOut(400);
-		$(".image-"+num).stop().fadeIn(400);
-		var scrollPos = (num+1)*imgHeight;
-		$("#thumbs").stop().animate({scrollTop: scrollPos}, 400);		
-		console.log(scrollPos, "img.image-"+num);
-	}
+	$('#next').click(function(){changeImg()});
+	setInterval(changeImg, 8000);
 });

@@ -7,21 +7,8 @@ $this->Html->script("mocha.js", array("inline" => false));
 <div class="row">
 	<div id="slider">
 		<div id="gallery">
-			<img src="/img/slider1.jpg" />
-			<img src="/img/slider2.jpg" />
-			<img src="/img/slider3.jpg" />
-			<img src="/img/slider4.jpg" />
-			<img src="/img/slider5.jpg" />
+			<img id="img-slider" src="/img/slider1.jpg" />
 		</div>
-
-		<div id="thumbs">
-			<img src="/img/thumb1.jpg" />
-			<img src="/img/thumb2.jpg" />
-			<img src="/img/thumb3.jpg" />
-			<img src="/img/thumb4.jpg" />
-			<img src="/img/thumb5.jpg" /> 
-		</div>
-
 		<div id="next"></div>
 
 	</div>
