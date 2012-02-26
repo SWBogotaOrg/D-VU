@@ -49,11 +49,11 @@
                     
                     <div class="row doc-options">
                         <div class="two columns">
-                            <a href="" class="lk-trailer">Trailer</a>
+                            <a href="/video/<?php echo $id ?>" class="lk-trailer">Trailer</a>
                         </div>
                         
                         <div class="two columns">
-                            <a href="" class="lk-view"><span>U$5</span><br /> View in HD</a>
+                            <a href="/payment" class="lk-view"><span>U$5</span><br /> View in HD</a>
                         </div>
                         
                         <div class="two columns">

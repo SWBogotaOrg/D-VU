@@ -67,7 +67,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="" class="lk-view"><span>U$5</span><br /> View in HD</a>
+                                <a href="/payment" class="lk-view"><span>U$5</span><br /> View in HD</a>
                             </div>
                             
                             <div class="two columns">
@@ -149,7 +149,7 @@ $this->set('title_for_layout', __('Hivou - Results', true));
                             </div>
                             
                             <div class="two columns">
-                                <a href="" class="lk-view"><span>U$5</span><br /> View in HD</a>
+                                <a href="/payment" class="lk-view"><span>U$5</span><br /> View in HD</a>
                             </div>
                             
                             <div class="two columns">
