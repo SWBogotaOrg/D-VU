@@ -12,7 +12,7 @@ $this->set('title_for_layout', __('Hivou - Documentary', true));
             
             <div class="row">
                 <div class="four columns">
-                   <img src="img/cover_doc.jpg" class="bigPhoto" alt="The Water Cycle"  title="The Water Cycle" />
+                   <img src="img/cover_doc1.jpg" class="bigPhoto" alt="The Water Cycle"  title="The Water Cycle" />
                 </div>
                 
                 <div class="eight columns">
