@@ -1,6 +1,6 @@
 <?php
 $this->Html->script("mocha.js", array("inline" => false));
-$this->set('title_for_layout', __('Hivou - Results', true));
+$this->set('title_for_layout', __('Results', true));
 ?>
 <!-- container -->
 
