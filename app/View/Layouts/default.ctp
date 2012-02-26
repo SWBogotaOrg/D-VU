@@ -32,18 +32,18 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<meta name="viewport" content="width=device-width" />
 
 	<title>Hivou - Home Page</title>
-  
+
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/app.css">
-	
+
 	<?php
 		echo $scripts_for_layout;
 	?>
-       
-	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>    
+
+	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-    
+
 
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="stylesheets/ie.css">
@@ -65,61 +65,34 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                     <div class="four columns">
                         <a href="index.html"><img src="img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
                     </div>
-                    
+
                      <div class="four columns link-bar">
-                        <a href=""><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a> 
+                        <a href=""><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
                     <a href=""><img src="img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
                     </div>
-                    
-                    <div class="four columns link-bar al-right">
-                        <a href="">Sign in</a>         
-                        <a href="">Contact us</a>                        
-                    </div>
-                </div>
-            </div>
-		
-		<?php echo $this->Session->flash(); ?>
 
-		<?php echo $content_for_layout; ?>
-            
-<!--            
-            <div class="row">
-                <div id="slider">
-                   <img src="img/slider-home.png" alt="Slider"  title="Slider" />
-                </div>
-                
-                <div class="hr"></div>
-            </div>
-            
-            <div id="profile-options"  class="row">
-            	<div class="six columns">
-                	<div class="panel" align="center">
-                    	<img src="img/ic-search.png" alt="Search & watch documentaries"  title="Search & watch documentaries" />
-                    	<h3>SEARCH & WATCH DOCUMENTARIES</h3>                        
-                        <input name="" type="text" size="40"><br><br>
-                     	<a href="" rel="external" class="nice radius orange button medium">Search</a>
-                    </div>
-                </div>
-                
-                <div class="six columns">
-                	<div class="panel"  align="center">
-                    	<img src="img/ic-director.png" alt="Upload your documentary!"  title="Upload your documentary!" />
-                    	<h3>FILMMAKER:<br />UPLOAD YOUR DOCUMENTARY!</h3>
-                        <a href="" rel="external" class="nice radius orange button medium">Upload</a>
+                    <div class="four columns link-bar al-right">
+                        <a href="">Sign in</a>
+                        <a href="">Contact us</a>
                     </div>
                 </div>
             </div>
-        </div>-->
+
+	    <?php echo $this->Session->flash(); ?>
+
+	    <?php echo $content_for_layout; ?>
+            
+	</div>
 		<!-- container -->
-    
+
         <div id="footer">
-            <div class="row">   
+            <div class="row">
                 <div class="eight columns link-bar">
-                    <p>&copy; 2012 hivou.co <a href="">ABOUT US</a> | <a href="">FAQ</a> | <a href="">TERMS</a> | <a href="">CONTACT US</a></p> 
+                    <p>&copy; 2012 hivou.co <a href="">ABOUT US</a> | <a href="">FAQ</a> | <a href="">TERMS</a> | <a href="">CONTACT US</a></p>
                 </div>
-                
+
                 <div class="four columns al-right">
-                    <a href=""><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a> 
+                    <a href=""><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
                     <a href=""><img src="img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
                 </div>
             </div>
@@ -133,6 +106,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<script src="js/modernizr.foundation.js"></script>
 	<script src="js/foundation.js"></script>
 	<script src="js/app.js"></script>
-	
+
 </body>
 </html>
