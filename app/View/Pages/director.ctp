@@ -6,7 +6,7 @@ $this->set('title_for_layout', __('Hivou - Director', true));
 
 	    <div class="row">
                 <div class="twelve columns">
-                    <h1>Africa</h1>	
+                    <h1>Carlos Rodríguez</h1>	
                 </div>
             </div>
             
@@ -46,30 +46,25 @@ $this->set('title_for_layout', __('Hivou - Director', true));
                         
                         <div class="row"><h3>More documentaries from Carlos:</h3></div>
                         
-                        <div class="row">                    	
-                            <div class="two columns">
-                                <a href=""><img src="img/thumb1.jpg" alt="La danza del Caracol" title="La danza del Caracol" /></a>
+                        <div class="row"> 
+                            
+                            <div class="three columns">
+                                <a href=""><img src="img/thumb2.jpg" alt="Curumaní" title="Curumaní" class="thumbPhoto" /> Curumaní</a>
                             </div>
                             
-                            <div class="two columns">
-                                <a href=""><img src="img/thumb2.jpg" alt="Curumaní" title="Curumaní" /></a>
+                            <div class="three columns">
+                               <a href=""><img src="img/thumb3.jpg" alt="Ají con papa" title="Construyendo" class="thumbPhoto"/> Construyendo</a>
                             </div>
                             
-                            <div class="two columns">
-                               <a href=""><img src="img/thumb3.jpg" alt="Ají con papa" title="Ají con papa" /></a>
+                            <div class="three columns">
+                                <a href=""><img src="img/thumb4.jpg" alt="Migraciones" title="Migraciones" class="thumbPhoto"/> Migraciones</a>
                             </div>
                             
-                            <div class="two columns">
-                                <a href=""><img src="img/thumb4.jpg" alt="Migraciones" title="Migraciones" /></a>
+                            <div class="three columns">
+                                <a href=""><img src="img/thumb5.jpg" alt="Volando" title="Volando" class="thumbPhoto" /> Volando</a>
                             </div>
                             
-                            <div class="two columns">
-                                <a href=""><img src="img/thumb5.jpg" alt="Volando" title="Volando" /></a>
-                            </div>
-                            
-                            <div class="two columns">
-                                <a href=""><img src="img/thumb1.jpg" alt="" title="Ensayos" /></a>
-                            </div>                        
+                                                 
                     	</div>
                     </div>
                     
