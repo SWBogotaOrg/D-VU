@@ -12,12 +12,12 @@ $this->set('title_for_layout', __('Hivou - Results', true));
             
             <div class="row">
                 <div class="two columns">
-                   <a href="documentary.html"><img src="img/thumb1.jpg" alt="The Water Cycle"  title="The Water Cycle" class="thumbPhoto" /></a>
+                   <a href="documentary/1"><img src="img/thumb1.jpg" alt="The Water Cycle"  title="The Water Cycle" class="thumbPhoto" /></a>
                 </div>
                 
                 <div class="ten columns">
                 	<div class="panel">
-                        <h3><a href="documentary.html">The Water Cycle</a></h3>
+                        <h3><a href="documentary/1">The Water Cycle</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, eros at semper venenatis, metus leo pretium ligula, non commodo metus velit quis tellus.</p>
                         
                         <div class="row doc-options">
@@ -53,12 +53,12 @@ $this->set('title_for_layout', __('Hivou - Results', true));
             
             <div class="row">
                 <div class="two columns">
-                   <a href="documentary.html"><img src="img/thumb2.jpg" alt="Curumaní"  title="Curumaní" class="thumbPhoto" /></a>
+                   <a href="documentary/2"><img src="img/thumb2.jpg" alt="The matunda kids sign with volunteers"  title="The matunda kids sign with volunteers" class="thumbPhoto" /></a>
                 </div>
                 
                 <div class="ten columns">
                 	<div class="panel">
-                        <h3><a href="documentary.html">Curumaní</a></h3>
+                        <h3><a href="documentary/2">The matunda kids sign with volunteers</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, eros at semper venenatis, metus leo pretium ligula, non commodo metus velit quis tellus.</p>
                         
                         <div class="row doc-options">
@@ -94,12 +94,12 @@ $this->set('title_for_layout', __('Hivou - Results', true));
             
             <div class="row">
                 <div class="two columns">
-                   <a href="documentary.html"><img src="img/thumb3.jpg" alt="Curumaní"  title="Construyendo" class="thumbPhoto" /></a>
+                   <a href="documentary/3"><img src="img/thumb3.jpg" alt="We have water"  title="We have water" class="thumbPhoto" /></a>
                 </div>
                 
                 <div class="ten columns">
                 	<div class="panel">
-                        <h3><a href="documentary.html">Construyendo</a></h3>
+                        <h3><a href="documentary/3">We have water</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, eros at semper venenatis, metus leo pretium ligula, non commodo metus velit quis tellus.</p>
                         
                         <div class="row doc-options">
@@ -135,12 +135,12 @@ $this->set('title_for_layout', __('Hivou - Results', true));
             
             <div class="row">
                 <div class="two columns">
-                   <a href="documentary.html"><img src="img/thumb4.jpg" alt="Migraciones"  title="Migraciones" class="thumbPhoto" /></a>
+                   <a href="documentary/4"><img src="img/thumb4.jpg" alt="The Matunda Health Centre"  title="The Matunda Health Centre" class="thumbPhoto" /></a>
                 </div>
                 
                 <div class="ten columns">
                 	<div class="panel">
-                        <h3><a href="documentary.html">Migraciones</a></h3>
+                        <h3><a href="documentary/4">The Matunda Health Centre</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, eros at semper venenatis, metus leo pretium ligula, non commodo metus velit quis tellus.</p>
                         
                         <div class="row doc-options">
@@ -176,12 +176,12 @@ $this->set('title_for_layout', __('Hivou - Results', true));
             
             <div class="row">
                 <div class="two columns">
-                   <a href="documentary.html"><img src="img/thumb5.jpg" alt="Volando"  title="Volando" class="thumbPhoto" /></a>
+                   <a href="documentary/5"><img src="img/thumb5.jpg" alt="Pulling Teeth"  title="Pulling Teeth" class="thumbPhoto" /></a>
                 </div>
                 
                 <div class="ten columns">
                 	<div class="panel">
-                        <h3><a href="documentary.html">Volando</a></h3>
+                        <h3><a href="documentary/5">Pulling Teeth</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, eros at semper venenatis, metus leo pretium ligula, non commodo metus velit quis tellus.</p>
                         
                         <div class="row doc-options">
