@@ -29,7 +29,6 @@ input[type="text"]{
 	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, .1);
 	font: 18px 'Josefin Sans', sans-serif !important;
 	padding: 5px;
-	width: 90%;
 }
 big{
 	font-size: 1.5em;
@@ -62,9 +61,11 @@ big{
 	width: 75px;
 }
 #profile-options div.panel {
-	min-height: 200px;
+	min-height: 280px;
 }
-
+#profile-options input[type="text"]{
+	width: 90%;
+}
 .button.nice:hover { 
 	color: #FFD018;
 }
@@ -73,6 +74,12 @@ big{
 	clear: both;
 	height: 1px;
 	margin: 20px 0px;
+}
+form .hr{	
+	border-bottom: 1px dotted #CCC !important;
+	clear: both;
+	height: 1px;
+	margin: 10px 0px 20px !important;
 }
 .doc-options{
 	text-align: center;
@@ -210,8 +217,20 @@ img.thumbPhoto{
 @media screen and (max-width: 767px) {	
 	h1,
 	#footer,
-	.link-bar{			
+	.link-bar,
+	.two.columns{			
 		text-align: center;
+	}
+	.doc-options .two.columns{
+		border-bottom: 1px solid #E5BB16;
+		margin: 0px 0px 20px;
+		padding-bottom: 20px;
+	}
+	#profile-options div.panel {
+		min-height: 100px;
+	}
+	#profile-options h3 {
+		font-size: 24px;
 	}
 	#header .four.columns,
 	.four.columns{	
