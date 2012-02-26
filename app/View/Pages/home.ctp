@@ -24,8 +24,8 @@ $this->Html->script("mocha.js", array("inline" => false));
 		<div class="panel" align="center">
 			<img src="/img/ic-search.png" alt="Search & watch documentaries"  title="Search & watch documentaries" />
 			<h3>SEARCH & WATCH DOCUMENTARIES</h3>                        
-			<input name="" type="text" size="40"><br><br>
-			<a href="" rel="external" class="nice radius orange button medium">Search</a>
+			<input name="" type="text" size="40"><br/><br/>
+			<a href="/results" rel="external" class="nice radius orange button medium">Search</a>
 		</div>
 	</div>
 

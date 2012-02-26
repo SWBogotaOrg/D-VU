@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Static content controller.
  *
@@ -18,7 +19,6 @@
  * @since         CakePHP(tm) v 0.2.9
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-
 App::uses('AppController', 'Controller');
 
 /**
@@ -31,26 +31,26 @@ App::uses('AppController', 'Controller');
  */
 class PagesController extends AppController {
 
-/**
- * Default helper
- *
- * @var array
- */
+	/**
+	 * Default helper
+	 *
+	 * @var array
+	 */
 	public $helpers = array('Html', 'Session');
 
-/**
- * This controller does not use a model
- *
- * @var array
- */
+	/**
+	 * This controller does not use a model
+	 *
+	 * @var array
+	 */
 	public $uses = array();
 
-/**
- * Displays a view
- *
- * @param mixed What page to display
- * @return void
- */
+	/**
+	 * Displays a view
+	 *
+	 * @param mixed What page to display
+	 * @return void
+	 */
 	public function display() {
 		$path = func_get_args();
 
@@ -72,4 +72,22 @@ class PagesController extends AppController {
 		$this->set(compact('page', 'subpage', 'title_for_layout'));
 		$this->render(implode('/', $path));
 	}
+
+	public function documentary($id) {
+		$movies = array(
+			1 => 'The Water Cycle',
+			2 => 'The matunda kids sign with volunteers',
+			3 => 'We have water',
+			4 => 'The Matunda Health Centre',
+			5 => 'Pulling Teeth',
+		);
+		if (empty($movies[$id])) {
+			$id = 1;
+		}
+
+		$title_movie = $title_for_layout = $movies[$id];
+
+		$this->set(compact('id', 'title_movie', 'title_for_layout'));
+	}
+
 }

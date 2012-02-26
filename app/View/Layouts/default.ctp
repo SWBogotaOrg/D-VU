@@ -16,6 +16,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+
 ?>
 <!DOCTYPE html>
 
@@ -30,18 +31,18 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<!-- Set the viewport width to device width for mobile -->
 		<meta name="viewport" content="width=device-width" />
 		<!-- Included JS Files -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/modernizr.foundation.js"></script>
-		<script src="js/foundation.js"></script>
-		<script src="js/app.js"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/modernizr.foundation.js"></script>
+		<script src="/js/foundation.js"></script>
+		<script src="/js/app.js"></script>
 
 		<title>
-			<?php echo $title_for_layout; ?>
+			Hivou - <?php echo $title_for_layout; ?>
 		</title>
 
 		<!-- Included CSS Files -->
-		<link rel="stylesheet" href="css/foundation.css">
-		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="/css/foundation.css">
+		<link rel="stylesheet" href="/css/app.css">
 
 		<?php
 		echo $scripts_for_layout;
@@ -69,12 +70,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				<div id="header">
 					<div class="row">
 						<div class="four columns">
-							<a href="index.html"><img src="img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
+							<a href="index.html"><img src="/img/logo_hivou.png" alt="Hivou.co"  title="Hivou.co" /></a>
 						</div>
 
 						<div class="four columns link-bar">
-							<a href="https://www.twitter.com/hivou"><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
-							<a href="https://www.facebook.com/pages/Hivou/321249997922559"><img src="img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
+							<a href="https://www.twitter.com/hivou"><img src="/img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
+							<a href="https://www.facebook.com/pages/Hivou/321249997922559"><img src="/img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
 						</div>
 
 						<div class="four columns link-bar al-right">
@@ -98,8 +99,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					</div>
 
 					<div class="four columns al-right">
-						<a href=""><img src="img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
-						<a href=""><img src="img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
+						<a href=""><img src="/img/ic-twitter.png" alt="Twitter" title="Twitter" /></a>
+						<a href=""><img src="/img/ic-facebook.png" alt="Facebook" title="Facebook" /></a>
 					</div>
 				</div>
 			</div>

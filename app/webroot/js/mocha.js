@@ -20,7 +20,7 @@ $(document).ready(function()
 			'left': p.left+ $('#img-slider').width() - $('#next').width(),
 			'top': p.top + $('#img-slider').height() - $('#next').height()
 		}
-		$('#next').css(fh1);
+		$('#next').css(fh1).show();
 	}
 	function changeImg(){
 		img_number++;
